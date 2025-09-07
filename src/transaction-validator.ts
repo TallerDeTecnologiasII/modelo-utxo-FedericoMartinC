@@ -22,6 +22,7 @@ export class TransactionValidator {
     // Set para rastrear los UTXOs que ya fueron referenciados y detectar doble gasto
     const referenciasVistas = new Set<string>();
 
+    
     // Suma de montos de entradas y salidas
     let inputTotal = 0;
     let outputTotal = 0;
